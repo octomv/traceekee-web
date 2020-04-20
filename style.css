@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(151.66deg, #E1F4EA -2.78%, rgba(255, 255, 255, 0) 69.68%);
+  background-repeat: no-repeat;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::-moz-selection {
+    background: #99E9BF;
+}
+
+::selection {
+    background: #99E9BF;
+}
+
+
+@font-face { font-family: 'HKGrotesk-Medium'; src: url('/css/fonts/HKGrotesk-Medium.eot?#iefix') format('embedded-opentype'), url('/css/fonts/HKGrotesk-Medium.otf') format('opentype'), url('/css/fonts/HKGrotesk-Medium.woff') format('woff'), url('/css/fonts/HKGrotesk-Medium.ttf') format('truetype'), url('/css/fonts/HKGrotesk-Medium.svg#HKGrotesk-Medium') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'ReplicaPro-Bold'; src: url('/css/fonts/ReplicaPro-Bold.eot?#iefix') format('embedded-opentype'), url('/css/fonts/ReplicaPro-Bold.otf') format('opentype'), url('/css/fonts/ReplicaPro-Bold.woff') format('woff'), url('/css/fonts/ReplicaPro-Bold.ttf') format('truetype'), url('/css/fonts/ReplicaPro-Bold.svg#ReplicaPro-Bold') format('svg'); font-weight: normal; font-style: normal; }
+
+
+@font-face {
+  font-family: 'MVWaheed';
+  src: url('/css/fonts/MVWaheed.eot?#iefix') format('embedded-opentype'),  url('/css/fonts/MVWaheed.otf')  format('opentype'),
+	     url('/css/fonts/MVWaheed.woff') format('woff'), url('/css/fonts/MVWaheed.ttf')  format('truetype'), url('/css/fonts/MVWaheed.svg#MVWaheed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.te_bold {
+  font-weight: normal;
+  font-family: 'ReplicaPro-Bold'
+}
+
+.te_regular {
+  font-weight: normal;
+  font-family: 'HKGrotesk-Medium'
+}
+
+.te_mv_bold {
+	direction: rtl;
+	font-weight: normal;
+  font-family: 'MVWaheed'
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
