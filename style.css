@@ -47,3 +47,47 @@ body {
   direction: rtl;
   text-align: right;
 }
+
+@keyframes ldio-8wz9o8rr0ws {
+  0% { transform: translate(-50%,-50%) rotate(0deg); }
+  100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+
+.overlay {
+  background:#fff;
+  position:absolute;
+  top:0px;
+  left:0px;right:0px;bottom:0px;
+  z-index: 100;
+  width:100vw;
+  height:100vh;
+
+}
+.ldio-8wz9o8rr0ws div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border: 6px solid #30b0e0;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-8wz9o8rr0ws div {
+  animation: ldio-8wz9o8rr0ws 1s linear infinite;
+  top: 100px;
+  left: 100px
+}
+.loadingio-spinner-rolling-5y6xiz0nyts {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-8wz9o8rr0ws {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-8wz9o8rr0ws div { box-sizing: content-box; }
