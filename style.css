@@ -56,29 +56,32 @@ body {
 .overlay {
   background:#fff;
   position:absolute;
+  width:100%;
+  text-align:center;
   top:0px;
+  padding-top:40vh;
   left:0px;right:0px;bottom:0px;
   z-index: 100;
-  width:100vw;
-  height:100vh;
 
 }
 .ldio-8wz9o8rr0ws div {
   position: absolute;
-  width: 54px;
-  height: 54px;
-  border: 6px solid #30b0e0;
+  margin:0px auto;
+  width: 34px;
+  height: 34px;
+  border: 2px solid #30b0e0;
   border-top-color: transparent;
   border-radius: 50%;
 }
 .ldio-8wz9o8rr0ws div {
   animation: ldio-8wz9o8rr0ws 1s linear infinite;
-  top: 100px;
-  left: 100px
+  top: 50px;
+  left: 50px
 }
 .loadingio-spinner-rolling-5y6xiz0nyts {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  margin:0px auto;
   display: inline-block;
   overflow: hidden;
 }
