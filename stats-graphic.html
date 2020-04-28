@@ -18,14 +18,16 @@
 </div>
 
 	<div class="wrapper">
-		<div class="container mx-auto p-4">
+		<div class=" flex flex-row-reverse mx-auto">
+<div class="w-20" style="background-color:#00C75E"></div>
+<div class="pr-8">
 			<div class="lang show_en header">
 				<h1 class="te_bold text-4xl md:text-4xl" style="color:#00C75E">Latest Updates</h1>
 				<div class="te_regular" style="color:#00C75E">Last Updated: <span class="last_updated"></span></div>
 			</div>
 
 			<div class="lang rtl show_dv header">
-				<h1 class="te_bold px-4  text-4xl te_mv_bold md:text-4xl" style="color:#00C75E">އެންމެ ފަހުގެ މަޢުލޫމާތު</h1>
+				<h1 class="te_bold text-4xl te_mv_bold md:text-6xl leading-tight" style="color:#00C75E">އެންމެ ފަހުގެ <br>މަޢުލޫމާތު</h1>
 				<div class="te_regular rtl" style="color:#00C75E"> <span class="last_updated">&nbsp;</span></div>
 			</div>
 			
@@ -88,11 +90,11 @@
 						<div class="te_mv_bold text-base md:text-2xl">ބަލިން ރަނގަޅުވި މީހުން</div>
 					</div>
 					<div class="w-2/3  lang show_en  pl-4" style="border-left:3px solid #00C75E;">
-						<div data-id="active_outofmaldives" class="te_bold leading-tight text-3xl md:text-5xl"></div>
+						<div data-id="active_outofmaldives1" class="te_bold leading-tight text-3xl md:text-5xl">2</div>
 						<div class="te_regular text-base md:text-2xl">Active cases out of country</div>
 					</div>
 					<div class="w-2/3  lang show_dv   pr-4" style="border-right:3px solid #00C75E;">
-						<div data-id="active_outofmaldives" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
+						<div data-id="active_outofmaldives1" class="te_bold leading-tight text-3xl md:text-5xl">2</div>
 						<div class="te_mv_bold text-base md:text-2xl">ޤައުމުން ބޭރުގައި ފަރުވާ ލިބެމުންދާ</div>
 					</div>
 				</div>
@@ -121,26 +123,27 @@
 					</div>
 
 					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
-						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">13</div>
+						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">In Isolation</div>
 					</div>
 
 					<div class="w-2/3 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
-						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">15</div>
+						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_mv_bold text-base md:text-2xl">އައިސޮލޭޝަންގައި ތިބި ޖުމްލަ</div>
 					</div>
 				</div>
 
-				<div class="te_regular lang show_en text-base md:text-2xl mt-10">Risk Level</div>
-				<div class="te_mv_bold lang show_dv text-lg md:text-2xl mt-10">ރިސްކު ލެވަލް</div>
+<!-- 				<div class="te_regular lang show_en text-base md:text-2xl mt-10">Risk Level</div>
+				<div class="te_mv_bold lang show_dv text-lg md:text-2xl mt-10">ރިސްކު ލެވަލް</div> -->
 
-				<div class="risk_levels  lang show_en ">
+<!-- 				<div class="risk_levels  lang show_en ">
+				</div> -->
+
+	<!-- 			<div class="risk_levels_dv lang show_dv">
 				</div>
-
-				<div class="risk_levels_dv lang show_dv">
-				</div>
-
+ -->
 			</div>
+		</div>
 		</div>
 	</div>
 
@@ -152,7 +155,8 @@
 		<script src="app.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$.getJSON("https://asia-east2-covid19trace.cloudfunctions.net/api/fetchStats", function(result){
+			// $.getJSON("https://asia-east2-covid19trace.cloudfunctions.net/api/fetchStats", function(result){
+			$.getJSON("data.json", function(result){
 
 				// console.log(result['local']['surveillance']);
 
