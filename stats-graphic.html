@@ -19,14 +19,19 @@
 
 	<div class="wrapper">
 		<div class=" flex flex-row-reverse mx-auto">
-<div class="w-20" style="background-color:#00C75E"></div>
-<div class="pr-8">
-			<div class="lang show_en header">
+<div class="w-16 p-3 pt-12" style="background-color:#00C75E">
+	<svg class="w-auto" viewBox="0 0 182 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M162.095 139.191H181.978V119.309H162.095V139.191ZM162.095 0.0039978V79.541L165.409 99.426H178.665L181.979 79.541V0.0039978H162.095ZM0.75 79.536H20.633V59.653H0.75V79.536ZM26.938 124.893L44.156 134.835L54.098 117.616L36.879 107.675L26.938 124.893ZM86.59 117.616L96.532 134.835L113.75 124.893L103.809 107.675L86.59 117.616ZM120.055 79.536H139.938V59.653H120.055V79.536ZM113.75 14.294L96.532 4.353L86.59 21.572L103.809 31.514L113.75 14.294ZM54.098 21.572L44.156 4.353L26.938 14.294L36.879 31.514L54.098 21.572ZM60.403 99.421V139.188H80.285V99.421V99.42L77.332 81.697L91.203 93.117H91.204L125.643 113.001L135.585 95.782L101.146 75.898L101.144 75.897L84.319 69.594L101.144 63.291L101.146 63.29L135.585 43.407L125.643 26.187L91.204 46.071L91.203 46.072L77.332 57.491L80.285 39.769V39.767V0H60.403V39.767V39.769L63.357 57.491L49.485 46.072L49.484 46.071L15.044 26.187L5.103 43.407L39.542 63.29L39.544 63.291L56.369 69.594L39.544 75.897L39.542 75.898L5.103 95.782L15.044 113.001L49.484 93.117H49.485L63.357 81.697L60.403 99.42V99.421Z" fill="white"/>
+</svg>
+
+</div>
+<div class="pr-8 w-4/5">
+			<div class="lang show_en header py-10">
 				<h1 class="te_bold text-4xl md:text-4xl" style="color:#00C75E">Latest Updates</h1>
 				<div class="te_regular" style="color:#00C75E">Last Updated: <span class="last_updated"></span></div>
 			</div>
 
-			<div class="lang rtl show_dv header">
+			<div class="lang rtl show_dv header pt-10 pb-4">
 				<h1 class="te_bold text-4xl te_mv_bold md:text-6xl leading-tight" style="color:#00C75E">އެންމެ ފަހުގެ <br>މަޢުލޫމާތު</h1>
 				<div class="te_regular rtl" style="color:#00C75E"> <span class="last_updated">&nbsp;</span></div>
 			</div>
@@ -40,62 +45,75 @@
 
 				<!-- <div class="direction lang show_dv my-4 pr-4" style="border-right:3px solid #00C75E;">
 					<div data-id="active_cases" class="te_bold leading-tight text-3xl md:text-5xl rtl">0</div>
-					<div class="te_mv_bold text-base md:text-2xl">މިވަގުތު ބަލިޖެހިފައި ތިބި މީހުން</div>
+					<div class="te_mv_bold text-sm md:text-xl">މިވަގުތު ބަލިޖެހިފައި ތިބި މީހުން</div>
 				</div> -->
 				
 				<div class="direction my-4 flex">
-					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="confirmed_cases" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">Confirmed</div>
 					</div>
 
-					<div class="w-1/3 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-4/5 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="confirmed_cases" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">ބަލިޖެހުނު މީހުން</div>
+						<div class="te_mv_bold text-sm md:text-xl">ބަލިޖެހުނު މީހުން</div>
 					</div>
 
 
-					<div class="w-1/3 lang show_en pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="local_cases" class="te_bold leading-tight text-3xl md:text-5xl">13</div>
 						<div class="te_regular text-base md:text-2xl">Locals</div>
 					</div>
 
 
-					<div class="w-1/3 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-4/5 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="local_cases" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">ދިވެހިން</div>
+						<div class="te_mv_bold text-sm md:text-xl">ދިވެހިން</div>
 					</div>
 
 
-					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="foreign_cases" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">Foreigners</div>
 					</div>
 
-					<div class="w-1/3 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-4/5 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="foreign_cases" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">ބީދޭސީން</div>
+						<div class="te_mv_bold text-sm md:text-xl">ބީދޭސީން</div>
 					</div>
 
 				</div>
 
 				<div class="my-4 direction flex">
-					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="recoveries" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">Recovered</div>
 					</div>
 
-					<div class="w-1/3  lang show_dv  pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-2/5  lang show_dv  pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="recoveries" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">ބަލިން ރަނގަޅުވި މީހުން</div>
+						<div class="te_mv_bold text-sm md:text-xl">ބަލިން ރަނގަޅުވި މީހުން</div>
 					</div>
-					<div class="w-2/3  lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+				</div>
+
+
+				<div class="my-4 direction flex">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+						<div data-id="currently_active" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
+						<div class="te_regular text-base md:text-2xl">Currently Active</div>
+					</div>
+
+					<div class="w-2/5  lang show_dv  pr-4" style="border-right:3px solid #00C75E;">
+						<div data-id="currently_active" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
+						<div class="te_mv_bold text-sm md:text-xl">މިވަގުތު ބަލިޖެހިފައި ތިބި މީހުން</div>
+					</div>
+					<div class="w-4/5  lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="active_outofmaldives1" class="te_bold leading-tight text-3xl md:text-5xl">2</div>
 						<div class="te_regular text-base md:text-2xl">Active cases out of country</div>
 					</div>
-					<div class="w-2/3  lang show_dv   pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-4/5  lang show_dv   pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="active_outofmaldives1" class="te_bold leading-tight text-3xl md:text-5xl">2</div>
-						<div class="te_mv_bold text-base md:text-2xl">ޤައުމުން ބޭރުގައި ފަރުވާ ލިބެމުންދާ</div>
+						<div class="te_mv_bold text-sm md:text-xl">ޤައުމުން ބޭރުގައި ފަރުވާ ލިބެމުންދާ</div>
 					</div>
 				</div>
 
@@ -112,24 +130,24 @@
 
 				
 				<div class="my-4 direction flex">
-					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="quarantine" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">In Quarantine</div>
 					</div>
 
-					<div class="w-1/3 lang show_dv  pr-4" style="border-right:3px solid #00C75E;">
+					<div class="w-2/5 lang show_dv  pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="quarantine" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">ކަރަންޓީންގައި ތިބި ޖުމްލަ</div>
+						<div class="te_mv_bold text-sm md:text-xl">ކަރަންޓީންގައި ތިބި ޖުމްލަ</div>
 					</div>
 
-					<div class="w-1/3 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
+					<div class="w-4/5 lang show_en  pl-4" style="border-left:3px solid #00C75E;">
 						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
 						<div class="te_regular text-base md:text-2xl">In Isolation</div>
 					</div>
 
 					<div class="w-2/3 lang show_dv pr-4" style="border-right:3px solid #00C75E;">
 						<div data-id="isolation" class="te_bold leading-tight text-3xl md:text-5xl">0</div>
-						<div class="te_mv_bold text-base md:text-2xl">އައިސޮލޭޝަންގައި ތިބި ޖުމްލަ</div>
+						<div class="te_mv_bold text-sm md:text-xl">އައިސޮލޭޝަންގައި ތިބި ޖުމްލަ</div>
 					</div>
 				</div>
 
@@ -142,6 +160,15 @@
 	<!-- 			<div class="risk_levels_dv lang show_dv">
 				</div>
  -->
+
+ 				<div class="te_mv_bold py-2 text-base md:text-xl rtl " style="color:#00C75E;">#ގޭގައިތިބެމާ #ރައްކާތެރިވެތިބެމާ #ފުރާނަސަލާމަތްކުރަމާ</div>
+
+
+ 				<div class="footer_info flex text-right rtl">
+ 					<img src="/assets/images/moh_logo.png" class="h-10">
+ 					<img src="/assets/images/hpa_logo.png" class="h-10">
+ 				</div>
+
 			</div>
 		</div>
 		</div>
@@ -155,8 +182,8 @@
 		<script src="app.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			// $.getJSON("https://asia-east2-covid19trace.cloudfunctions.net/api/fetchStats", function(result){
-			$.getJSON("data.json", function(result){
+			$.getJSON("https://asia-east2-covid19trace.cloudfunctions.net/api/fetchStats", function(result){
+			// $.getJSON("data.json", function(result){
 
 				// console.log(result['local']['surveillance']);
 
@@ -170,6 +197,10 @@
 				$('[data-id="quarantine"]').html(result['local']['surveillance'][8]['statistic']);		
 				$('[data-id="isolation"]').html(result['local']['surveillance'][7]['statistic']);
 				$('[data-id="hospital"]').html(result['local']['surveillance'][9]['statistic']);
+
+
+
+				$('[data-id="currently_active"]').html(result['local']['surveillance'][0]['statistic'] - result['local']['surveillance'][3]['statistic'] - 2);
 
 				$.each( result['local']['risk_level'], function( key, value ) {
 					var risk_block = `<div class="my-4 pl-4" style="border-left:3px solid `+result['local']['risk_level'][key]['level']+`;">
