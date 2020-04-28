@@ -21,8 +21,8 @@ body {
 
 @font-face {
   font-family: 'MVWaheed';
-  src: url('/css/fonts/MVWaheed.eot?#iefix') format('embedded-opentype'),  url('/css/fonts/MVWaheed.otf')  format('opentype'),
-	     url('/css/fonts/MVWaheed.woff') format('woff'), url('/css/fonts/MVWaheed.ttf')  format('truetype'), url('/css/fonts/MVWaheed.svg#MVWaheed') format('svg');
+  src: url('css/fonts/MVWaheed.eot?#iefix') format('embedded-opentype'),  url('/css/fonts/MVWaheed.otf')  format('opentype'),
+	     url('css/fonts/MVWaheed.woff') format('woff'), url('css/fonts/MVWaheed.ttf')  format('truetype'), url('css/fonts/MVWaheed.svg#MVWaheed') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,8 +44,10 @@ body {
 }
 
 .rtl {
-  direction: rtl;
-  text-align: right;
+    direction: rtl;
+    text-align: right;
+    font-family: 'MVWaheed';
+    font-size: .975rem;
 }
 
 @keyframes ldio-8wz9o8rr0ws {
